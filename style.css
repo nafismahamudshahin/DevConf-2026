@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* common styles */
+.common-btn {
+    background-color: #2563EB;
+    color: white;
+    padding: 12px 41px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+/* Navigation bar styles */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 8%;
+}
+
+.nav-logo img {
+    width: 100%;
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 28px;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #575757;
+}
+
+/* hover effect for navigation bar */
+.nav-menu ul li a:hover {
+    color: #7d7c7c;
+}
