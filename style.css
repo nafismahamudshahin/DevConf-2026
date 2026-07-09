@@ -44,3 +44,40 @@
 .nav-menu ul li a:hover {
     color: #7d7c7c;
 }
+
+/* Hero Container styles */
+
+.hero-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9) 25%, rgba(0, 0, 0, 0) 55%), url(./assets/banner.jpg);
+    height: 786px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.hero-content {
+    display: grid;
+    gap: 16px;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 5rem;
+
+}
+
+.hero-description {
+    width: 45%;
+    margin: auto;
+    font-size: 1.375rem;
+}
+
+.hero-btn-container .common-btn {
+    margin-top: 350px;
+    padding: 22px 50px;
+    font-size: 1.3rem;
+
+}
