@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body {
+    max-width: 1551px;
+    margin: auto;
+}
+
 /* ------------------- common styles ------------------------------*/
 .common-btn {
     background-color: #2563EB;
@@ -224,4 +229,31 @@
 .pro-card .price-card-body ul li,
 .pro-person {
     color: #FFFFFF !important;
+}
+
+/* footer */
+footer {
+    background-color: #0D1B2A;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 8%;
+    color: #A3AAB5;
+}
+
+.footer-right ul {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-right ul li {
+    list-style: none;
+}
+
+.footer-right ul li a {
+    text-decoration: none;
+    color: #A3AAB5;
 }
