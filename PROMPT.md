@@ -1,0 +1,1 @@
+PROMPT: Create a Contact & FAQ section using only HTML and CSS. Left side: Get in Touch form (Name, Email, Message, Submit button). Right side: FAQ accordion using <details> and <summary>. Use Flexbox, rounded corners, box shadow, and a clean modern design. 
