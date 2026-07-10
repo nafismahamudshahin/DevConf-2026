@@ -233,6 +233,7 @@ body {
 
 /* footer */
 footer {
+    padding: 32px 8% 24px;
     background-color: #0D1B2A;
 }
 
@@ -240,7 +241,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 8%;
     color: #A3AAB5;
 }
 
@@ -253,7 +253,27 @@ footer {
     list-style: none;
 }
 
-.footer-right ul li a {
+.social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
+    color: #bbc1ca;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid;
+}
+
+/* copy right */
+.divider {
+    border-top: 1px solid #2a2d35;
+    margin: 24px 0 16px;
+}
+
+.copy-right {
+    margin: 10px 0px;
+    font-size: 13px;
+    text-align: center;
     color: #A3AAB5;
 }
