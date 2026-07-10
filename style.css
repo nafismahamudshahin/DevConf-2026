@@ -83,11 +83,11 @@
 
 /*------------------ Meet The Speakers --------------------------*/
 
-.speakers-container {
+.common-container {
     margin: 80px 8%;
 }
 
-.speakers-title {
+.common-title {
     text-align: center;
     margin: 50px 0px;
     font-size: 3.5rem;
@@ -132,4 +132,96 @@
     width: 100%;
     border-radius: 12px 12px 0px 0px;
     object-fit: cover;
+}
+
+/* ----------------- Secure Your Spot Styles ---------------------- */
+.spot-title {
+    text-align: center;
+    font-size: 3.5rem;
+    color: #000102;
+    margin-bottom: 10px;
+}
+
+.common-subtitle {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 50px;
+    color: #575757;
+    font-weight: 500;
+}
+
+.price-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 8px 9%;
+    gap: 24px;
+}
+
+.price-card {
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.price-card-head {
+    padding-bottom: 32px;
+}
+
+.price-card-body {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.price-card-body ul {
+    display: grid;
+    gap: 10px;
+    color: #333333;
+}
+
+.price-card-body ul li::marker {
+    color: #2563EB;
+}
+
+.price-card-head h2 {
+    font-weight: bold;
+    font-size: 44px;
+    color: #0D1B2A;
+}
+
+.price-card-head p {
+    font-weight: 500;
+    font-size: 14px;
+    color: #888888;
+}
+
+.price-card-footer button {
+    width: 100%;
+    text-align: center;
+}
+
+.outline-btn {
+    border: 1px solid #2563EB;
+    background: none;
+    color: #2563EB;
+}
+
+.outline-btn-black {
+    border: 1px solid #0D1B2A;
+    background: none;
+    color: #0D1B2A;
+}
+
+/* pro card style */
+.pro-card {
+    background-color: #0D1B2A;
+}
+
+.pro-card .price-card-head p {
+    color: #93C5FD;
+}
+
+.pro-card .price-card-head h2,
+.pro-card .price-card-body ul li,
+.pro-person {
+    color: #FFFFFF !important;
 }
