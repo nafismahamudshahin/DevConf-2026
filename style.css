@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-/* common styles */
+/* ------------------- common styles ------------------------------*/
 .common-btn {
     background-color: #2563EB;
     color: white;
@@ -15,7 +15,7 @@
 }
 
 
-/* Navigation bar styles */
+/* ------------------ Navigation bar styles ----------------------- */
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -40,12 +40,12 @@
     color: #575757;
 }
 
-/* hover effect for navigation bar */
+/* ------------------ hover effect for navigation bar ------------------- */
 .nav-menu ul li a:hover {
     color: #7d7c7c;
 }
 
-/* Hero Container styles */
+/* ------------------ Hero Container styles --------------------*/
 
 .hero-container {
     display: grid;
@@ -79,5 +79,57 @@
     margin-top: 350px;
     padding: 22px 50px;
     font-size: 1.3rem;
+}
 
+/*------------------ Meet The Speakers --------------------------*/
+
+.speakers-container {
+    margin: 80px 8%;
+}
+
+.speakers-title {
+    text-align: center;
+    margin: 50px 0px;
+    font-size: 3.5rem;
+    color: #000102;
+}
+
+.speakers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+
+.speaker {
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.speaker-body {
+    display: grid;
+    gap: 8px;
+    padding: 24px;
+
+}
+
+.speaker-tag {
+    font-weight: 600;
+    font-size: 12px;
+    color: #2563EB;
+}
+
+.speaker-name {
+    font-weight: 700;
+    font-size: 20px;
+    color: #0D1B2A;
+}
+
+.speaker-body p {
+    color: #575757;
+}
+
+.speaker img {
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+    object-fit: cover;
 }
