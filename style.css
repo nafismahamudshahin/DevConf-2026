@@ -17,6 +17,7 @@ body {
     border-radius: 12px;
     font-size: 1rem;
     font-weight: bold;
+    cursor: pointer;
 }
 
 
@@ -142,7 +143,7 @@ body {
 /* ----------------- Secure Your Spot Styles ---------------------- */
 .spot-title {
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: #000102;
     margin-bottom: 10px;
 }
@@ -150,7 +151,7 @@ body {
 .common-subtitle {
     text-align: center;
     font-size: 16px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     color: #575757;
     font-weight: 500;
 }
@@ -276,4 +277,107 @@ footer {
     font-size: 13px;
     text-align: center;
     color: #A3AAB5;
+}
+
+
+/*-------------- Questions? We're here to help ---------------------- */
+
+.faq-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0px 8% 30px 8%;
+    gap: 30px;
+}
+
+.contact-panel,
+.faq-panel {
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+
+/* left form container*/
+
+.contact-panel h3 {
+    margin-bottom: 10px;
+}
+
+.contact-panel .sub {
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.field {
+    margin-bottom: 15px;
+
+}
+
+.field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.field input,
+.field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.field textarea {
+    height: 120px;
+}
+
+.form-note {
+    margin-top: 10px;
+    font-size: 14px;
+    color: gray;
+}
+
+/* FAQ Right Container*/
+
+.faq-item {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.faq-item summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    list-style: none;
+}
+
+summary {
+    list-style: none;
+}
+
+
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-icon::before {
+    content: "+";
+    font-size: 20px;
+}
+
+.faq-item[open] .faq-icon::before {
+    content: "-";
+    font-size: 20px;
+}
+
+.faq-answer {
+    margin-top: 10px;
+    color: #555;
+    line-height: 1.5;
 }
