@@ -219,7 +219,7 @@ body {
 .outline-btn:hover,
 .outline-btn-black:hover {
     background-color: #2563EB;
-    color: #000102;
+    color: white;
     border-color: #2457D6;
 }
 
