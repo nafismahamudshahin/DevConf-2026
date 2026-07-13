@@ -21,6 +21,9 @@ body {
     cursor: pointer;
 }
 
+.common-btn:hover {
+    background-color: #2457D6;
+}
 
 /* ------------------ Navigation bar styles ----------------------- */
 .nav-container {
@@ -63,6 +66,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    border-radius: 10px;
 }
 
 .hero-content {
@@ -210,6 +214,13 @@ body {
     border: 1px solid #2563EB;
     background: none;
     color: #2563EB;
+}
+
+.outline-btn:hover,
+.outline-btn-black:hover {
+    background-color: #2563EB;
+    color: #000102;
+    border-color: #2457D6;
 }
 
 .outline-btn-black {
